@@ -22,15 +22,22 @@ body {
 
 main {
   text-align: center;
-  background-image: url('./images/1989bg.jpg');
-  background-size: 100%;
+  background-color: #022b3a;
+  /* background-image: url('./images/1989bg.jpg');
+  background-size: 100%; */
 }
 
 h3 {
   background: #829298;
   padding: 1rem;
-  margin: 2rem 1rem 0rem 1rem;
+  margin: 1.5rem 7rem 0rem 7rem;
   border: solid 0.25rem silver;
+  border-radius: 0.5rem;
+}
+
+.poster_boarder {
+  border: solid 1rem #e1ca96;
+  border-radius: 0.5rem;
 }
 
 img {
@@ -40,8 +47,9 @@ img {
 h4 {
   background: #829298;
   padding: 1rem;
-  margin: 0rem 1rem 0rem 1rem;
+  margin: 1rem 9rem 0.5rem 9rem;
   border: solid 0.25rem silver;
+  border-radius: 0.5rem;
 }
 
 p {
@@ -49,6 +57,7 @@ p {
   padding: 1rem;
   margin: 0rem 1rem 0rem 1rem;
   border: solid 0.25rem silver;
+  border-radius: 0.5rem;
 }
 
 @media (min-width: 700px) {
@@ -61,15 +70,22 @@ p {
   }
 
   main {
-    background-image: url('./images/desktop1989.jpg');
+    background-image: url('./images/bg1989.jpg');
     height: 100%;
   }
 
   h3 {
     background: #829298;
     padding: 1rem;
-    margin: 2rem 15rem 0rem 15rem;
+    margin: 2rem 30rem 0rem 30rem;
     border: solid 0.25rem silver;
+    border-radius: 0.5rem;
+  }
+
+  .poster_boarder {
+    border: solid 1rem #e1ca96;
+    border-radius: 0.5rem;
+    margin: 0rem 32rem 0rem 32rem;
   }
 
   img {
@@ -79,8 +95,9 @@ p {
   h4 {
     background: #829298;
     padding: 1rem;
-    margin: 0rem 15rem 0rem 15rem;
+    margin: 1rem 35rem 0.5rem 35rem;
     border: solid 0.25rem silver;
+    border-radius: 0.5rem;
   }
 
   p {
@@ -88,5 +105,6 @@ p {
     padding: 1rem;
     margin: 0rem 15rem 0rem 15rem;
     border: solid 0.25rem silver;
+    border-radius: 0.5rem;
   }
 }
