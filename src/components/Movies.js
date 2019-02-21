@@ -5,7 +5,7 @@ import Movie from './Movie'
 class Movies extends Component {
   render() {
     return (
-      <main>
+      <>
         {MoviesData.results.map(movie => {
           return (
             <Movie
@@ -17,7 +17,7 @@ class Movies extends Component {
             />
           )
         })}
-      </main>
+      </>
     )
   }
 }
